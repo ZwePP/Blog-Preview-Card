@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+.attribution { font-size: 11px; text-align: center; bottom: 100; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%) ;
+}
+
+.container{
+    border: 1px solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    row-gap: 15px;
+    width: 350px;
+}
+
+.header-pic{
+    background-image: url(assets/images/illustration-article.svg);
+    height: 200px;
+    border-radius: 15px;
+}
+
+.header-tag h5{
+    font-weight: 800;
+    padding: 5px 8px;
+    border-radius: 3px;
+    max-width: fit-content;
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+
+}
+
+.header-date p{
+    font-size: .8rem;
+    font-weight: 500;
+    max-width: fit-content;
+    color: hsl(0, 0%, 7%);
+}
+.header-title a{
+    text-decoration: none;
+    color: hsl(0, 0%, 7%);
+    font-weight: 800;
+    font-size: 1.5rem;
+}
+.header-title a:hover{
+    text-decoration: none;
+    color:hsl(47, 88%, 63%);
+    transition: linear 100ms;
+    
+}
+.text p{
+    font-size: 15px;
+    color: hsl(0, 0%, 50%);
+    font-weight: 400;
+    line-height: 1.2rem;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    column-gap: 8px;
+}
+.profile-pic img{
+    width: 40px;
+}
+.profile-name{
+    font-size: .8rem;
+    font-weight: 800;
+}
+
+.shadow-container{
+    width: 350px;
+    height: 500px;
+    background-color: hsl(0, 0%, 7%);
+    position: relative;
+    z-index: -1;
+    bottom: 492px;
+    left: 8px;
+    border-radius: 20px;
+}
